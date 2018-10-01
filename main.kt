@@ -3,6 +3,11 @@ import org.json.JSONObject
 import org.json.simple.parser.JSONParser
 import java.net.URL
 
+/**
+ * Created by Diogo Bersuc on 26 September 2018.
+ */
+
+
 fun main(args: Array<String>) {
 
     //Define JSON URL to parse
@@ -44,3 +49,10 @@ fun main(args: Array<String>) {
     println("\n${placemarks.length()} lines read")
 
 }
+/*  Ajust all code. Organize it 
+    Create data class
+    Class for parse JSON
+    Class for Google Location
+    Improve code
+    Insert into Android App
+*/
