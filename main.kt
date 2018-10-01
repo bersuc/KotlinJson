@@ -21,7 +21,7 @@ import java.net.URL
 fun main(args: Array<String>) {
 
     //Define JSON URL to parse
-    val enderecoJson = ""
+    val enderecoJson = "https://s3-us-west-2.amazonaws.com/wunderbucket/locations.json"
 
     //Call parser and identify first Key
     val parser = JSONParser()
