@@ -8,6 +8,16 @@ import java.net.URL
  */
 
 
+/*  
+    TODO - URGENT
+    Ajust all code. Organize it (Call Functions)
+    Create data class (JSON)
+    Class for parse JSON (Step before)
+    Class for Google Location (Study it)
+    Improve code (final Adjustments)
+    Insert into Android App (copy and ajust activities to look good)
+*/
+
 fun main(args: Array<String>) {
 
     //Define JSON URL to parse
@@ -49,10 +59,4 @@ fun main(args: Array<String>) {
     println("\n${placemarks.length()} lines read")
 
 }
-/*  Ajust all code. Organize it 
-    Create data class
-    Class for parse JSON
-    Class for Google Location
-    Improve code
-    Insert into Android App
-*/
+
